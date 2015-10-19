@@ -32,7 +32,7 @@ function stanford_fellowship_field_group_info() {
       'label' => 'Additional Information',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-addl-info field-group-div  ',
+        'classes' => 'group-addl-info field-group-div',
         'description' => '',
         'show_label' => '1',
         'label_element' => 'h2',
@@ -126,7 +126,7 @@ function stanford_fellowship_field_group_info() {
       'label' => 'Application',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-application field-group-div  ',
+        'classes' => 'group-application field-group-div',
         'description' => '',
         'show_label' => '1',
         'label_element' => 'h2',
@@ -255,7 +255,7 @@ function stanford_fellowship_field_group_info() {
       'label' => 'Eligibility',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-eligibility field-group-div    ',
+        'classes' => 'group-eligibility field-group-div',
         'description' => '',
         'show_label' => '1',
         'label_element' => 'h2',
@@ -423,7 +423,7 @@ function stanford_fellowship_field_group_info() {
       'label' => 'Postcard',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-s-postcard field-group-div ',
+        'classes' => 'group-s-postcard field-group-div',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
