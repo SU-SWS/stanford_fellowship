@@ -57,8 +57,8 @@ function stanford_fellowship_field_group_info() {
     'label' => 'Application Materials',
     'weight' => '2',
     'children' => array(
-      0 => 'field_s_fellowship_applic_mater',
-      1 => 'field_s_fellowship_applic_links',
+      0 => 'field_s_fellowship_applic_links',
+      1 => 'field_s_fellowship_applic_mater',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -178,14 +178,7 @@ function stanford_fellowship_field_group_info() {
   $field_group->data = array(
     'label' => 'Content',
     'weight' => '2',
-    'children' => array(
-      0 => 'field_s_fellowship_duration',
-      1 => 'field_s_fellowship_external',
-      2 => 'field_s_fellowship_related_links',
-      3 => 'field_s_fellowship_organization',
-      4 => 'body',
-      5 => 'field_s_fellowship_location',
-    ),
+    'children' => array(),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Content',
@@ -248,7 +241,6 @@ function stanford_fellowship_field_group_info() {
     'children' => array(
       0 => 'field_s_fellowship_eligibility',
       1 => 'field_s_fellowship_open_to',
-      2 => 'field_s_fellowship_requirements',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -343,9 +335,9 @@ function stanford_fellowship_field_group_info() {
     'weight' => '1',
     'children' => array(
       0 => 'field_s_fellowship_campus_applic',
-      1 => 'field_s_fellowship_deadline_peri',
-      2 => 'field_s_fellowship_info_session',
-      3 => 'field_s_fellowship_campus_interv',
+      1 => 'field_s_fellowship_campus_interv',
+      2 => 'field_s_fellowship_deadline_peri',
+      3 => 'field_s_fellowship_info_session',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -372,7 +364,7 @@ function stanford_fellowship_field_group_info() {
   $field_group->entity_type = 'node';
   $field_group->bundle = 'stanford_fellowship';
   $field_group->mode = 'default';
-  $field_group->parent_name = '';
+  $field_group->parent_name = 'group_s_postcard';
   $field_group->data = array(
     'label' => 'Postcard Content',
     'weight' => '2',
@@ -380,10 +372,10 @@ function stanford_fellowship_field_group_info() {
       0 => 'body',
       1 => 'field_s_fellowship_duration',
       2 => 'field_s_fellowship_external',
-      3 => 'field_s_fellowship_organization',
-      4 => 'field_s_fellowship_related_links',
-      5 => 'field_s_fellowship_requirements',
-      6 => 'field_s_fellowship_location',
+      3 => 'field_s_fellowship_location',
+      4 => 'field_s_fellowship_organization',
+      5 => 'field_s_fellowship_related_links',
+      6 => 'field_s_fellowship_requirements',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -410,13 +402,12 @@ function stanford_fellowship_field_group_info() {
   $field_group->entity_type = 'node';
   $field_group->bundle = 'stanford_fellowship';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_content';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Postcard',
     'weight' => '43',
     'children' => array(
-      0 => 'group_important_dates',
-      1 => 'group_s_postcard_content',
+      0 => 'group_s_postcard_content',
     ),
     'format_type' => 'div',
     'format_settings' => array(

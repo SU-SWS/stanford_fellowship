@@ -79,6 +79,7 @@ features[field_instance][] = node-stanford_fellowship-field_s_fellowship_related
 features[field_instance][] = node-stanford_fellowship-field_s_fellowship_requirements
 features[field_instance][] = node-stanford_fellowship-field_s_fellowship_selection
 features[node][] = stanford_fellowship
+features[taxonomy][] = fellowship_location
 features[variable][] = field_bundle_settings_node__stanford_fellowship
 features[variable][] = menu_options_stanford_fellowship
 features[variable][] = menu_parent_stanford_fellowship
