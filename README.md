@@ -1,5 +1,5 @@
 #[Stanford Fellowships](https://github.com/SU-SWS/stanford_fellowships)
-##### Version: 7.x-1.x
+##### Version: 7.x-1.0
 
 Maintainers: [irinaz](https://github.com/irinaz), [sherakama](https://github.com/sherakama)
 
